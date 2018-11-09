@@ -2,7 +2,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "TouchIdTest"
-  s.version      = "1.0.1"
+  s.version      = "1.0.2"
   s.summary      = "A short description of TouchIdTest."
 
   s.description  = "A short description of TouchIdTest."          
