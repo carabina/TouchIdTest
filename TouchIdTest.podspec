@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
 
   s.license      = "MIT"
    s.author             = { "Duong Nguyen" => "duong.nh@sutruxsolution.com" }
-    s.source       = { :git => "http://EXAMPLE/TouchIdTest.git", :tag => "#{s.version}" }
+    s.source       = { :git => "https://github.com/Duong2233/TouchIdTest.git", :tag => "#{s.version}" }
   s.platform     = :ios, "12.0"
   s.swift_version = "4.2" 
 
