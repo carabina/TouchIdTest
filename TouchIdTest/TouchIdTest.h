@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-
+@class TouchIdTest;
 //! Project version number for TouchIdTest.
 FOUNDATION_EXPORT double TouchIdTestVersionNumber;
 
