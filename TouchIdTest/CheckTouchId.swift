@@ -17,7 +17,7 @@ internal class CheckTouchId {
             return
         }
         guard let user_ID = userID else {return}
-        context.evaluatePolicy(.deviceOwnerAuthentication, localizedReason: user_ID) { [unowned self] (success, error) in
+        context.evaluatePolicy(.deviceOwnerAuthentication, localizedReason: user_ID) {  (success, error) in
             if success {
                 reply(success, error)
                 
