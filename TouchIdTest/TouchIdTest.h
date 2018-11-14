@@ -2,22 +2,11 @@
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Wgcc-compat"
 
-#if !defined(__has_include)
-# define __has_include(x) 0
-#endif
-#if !defined(__has_attribute)
-# define __has_attribute(x) 0
-#endif
-#if !defined(__has_feature)
-# define __has_feature(x) 0
-#endif
-#if !defined(__has_warning)
-# define __has_warning(x) 0
-#endif
 
-#if __has_include(<swift/objc-prologue.h>)
-# include <swift/objc-prologue.h>
-#endif
+#import <UIKit/UIKit.h>
+@class CheckTouchId;
+//! Project version number for TouchIdTest.
+FOUNDATION_EXPORT double TouchIdTestVersionNumber;
 
 #pragma clang diagnostic ignored "-Wauto-import"
 #include <objc/NSObject.h>
