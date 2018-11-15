@@ -2,7 +2,7 @@
 Pod::Spec.new do |s|
 
   s.name          = "TouchIdTest"
-  s.version       = "0.0.7"
+  s.version       = "0.0.8"
   s.summary       = "Use to Check Touch ID"
 
   s.description   = "Touch Test ID can use to check Touch ID"          

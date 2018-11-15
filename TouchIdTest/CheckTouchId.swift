@@ -8,7 +8,7 @@
 
 import Foundation
 import LocalAuthentication
-@objc open class CheckTouchId :NSObject {
+ class CheckTouchId :NSObject {
    public var message: String = ""
 
   @objc public func tapTouchId(_ userID:String? ,reply: @escaping(Bool,Error?) -> Swift.Void) {
