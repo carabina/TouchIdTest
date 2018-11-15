@@ -8,10 +8,10 @@
 
 import Foundation
 import LocalAuthentication
-internal class CheckTouchId {
-   private var message: String = ""
+@objc open class CheckTouchId :NSObject {
+   public var message: String = ""
 
-   public func tapTouchId(_ userID:String? ,reply: @escaping(Bool,Error?) -> Swift.Void) {
+  @objc public func tapTouchId(_ userID:String? ,reply: @escaping(Bool,Error?) -> Swift.Void) {
         let context = LAContext()
         guard context.canEvaluatePolicy(.deviceOwnerAuthentication, error: nil) else {
             return
